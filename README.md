@@ -10,7 +10,7 @@ dan sebagainya. Saya menemukan bahwa di data ini lebih banyak yang tidak klaim a
 yang mendeteksi nasabah yang klaim.
 Selanjutnya menemukan model yang sesuai dari skor [cross validation](https://github.com/Nasyahh/Capstone-Poject-Module-3---Travel-Insurance-Claim-Detection/blob/main/2.%20Cross%20Validation%20Base%20Classification%20Model.ipynb)  yang menunjukkan model Decision Tree Classifier yang mampu mendeteksi kelas minoritas yaitu nasabah yang klaim.
 Setelah proses Cross Validation, melanjutkan ke proses Imbalance Data Handling yang mencoba lima macam metode penanganan dan dari hasil Evaluation Matrix, ditemukan bahwa metode Random OverSampling
-paling tepat digunakan dalam dataset ini. Karena hasil Evaluation Matric menunjukkan model yang overfitting / terlalu menghafal pola kelas 1, maka dilakukan [tuning] untuk memangkas tree/pohon keputusan.
+paling tepat digunakan dalam dataset ini. Karena hasil Evaluation Matric menunjukkan model yang overfitting / terlalu menghafal pola kelas 1, maka dilakukan [tuning](https://github.com/Nasyahh/Capstone-Poject-Module-3---Travel-Insurance-Claim-Detection/blob/main/3.%20Imbalance%20Data%20Handling%20and%20Model%20Tuning.ipynb) untuk memangkas tree/pohon keputusan.
 
 Model deteksi ini tepat digunakan oleh perusahaan asuransi perjalanan dan sejenisnya, dikarenakan model deteksi mampu memprediksi nasabah yang akan klaim atau tidak klaim asuransi sejak nasabah tersebut melengkapi
 pembelian produk, pembayaran premi, destinasi perjalanan dan data diri. Jika perusahaan menerapkan model deteksi ini, maka perusahaan akan mendapat support/saran dalam manajemen keuangannya.
